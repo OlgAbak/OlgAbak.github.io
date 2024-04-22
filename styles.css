@@ -63,3 +63,8 @@ nav {
   
   
 }
+@media (max-width: 768px) {
+  #main-doc {
+    width: 150px;
+  }
+}
