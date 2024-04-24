@@ -63,3 +63,27 @@ nav {
   
   
 }
+@media (max-width: 768px) {
+  #main-doc {
+    width: 150px;
+  }
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  justify-items: right;
+  row-gap: 1rem;
+}
+.wiki-img {
+  width: 95%;
+  object-fit: cover;
+}
+.book-img {
+  width: 95%;
+  object-fit: cover;
+}
+.product-img {
+  width: 95%;
+  object-fit: cover;
+}
