@@ -5,85 +5,333 @@ nav > ul {
   flex-direction: row;
   flex-wrap: nowrap;
 }
+#navbar {
+  position: fixed;
+}
 li > a {
   text-decoration: none;
-  color: white;
-  font-size: 22px;
+  color: var(--color3);
+  font-size: 30px;
   font-family: sans-serif;
 }
+li:hover {
+  background-color: #1d62d89f;
+}
 nav > ul > li {
-  padding: 23px;
+  padding: 26px;
   position: relative;
   right: 33px;
 }
-
 nav {
-  background-color: #C70039;
+  background-color: rgb(240, 9, 63, 100%);
   width: 100%;
-  height: 18%;
+  height: 17%;
   position: absolute;
   top: 0;
+  z-index: 1;
 }
-* {
-  box-sizing: border-box;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-}
+
 .name {
   width: 100%;
-  height: 90%;
-  background-color: black;
+  height: 25%;
+  background-color: var(--color1);
 }
 #welcome-section {
-  color: white;
+  color: var(--color3);
   text-align: center;
-  padding-top: 150px;
-  font-size: 30px;
+  font-size: 45px;
+  position: relative;
+  top: 200px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #profession {
   color: red;
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
   position: relative;
-  bottom: 20px;
+  top: 210px;
   font-style: italic;
+  font-family:serif;
 }
 .projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
-  height: 180%;
-  background-color:
-}
-#header {
-
+  height: 15%;
   text-align: center;
-  padding-top: 50px;
+  background-color:#1d62d89f;
+  padding-top: 100px;
+  padding-left: 350px;
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.project-title {
-  
-  
+#presentation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+  padding-right: 100px;
 }
-@media (max-width: 768px) {
-  #main-doc {
-    width: 150px;
-  }
+body {
+  height: 400vh;
+  overflow-x: hidden;
+}
+:root {
+  --icons: translateY(10px);
+  --smooth: transform 1s ease-in-out 0ms;
+  --color1: black; 
+  --color2: #C70039;
+  --color3: white;
+  --font1: bold;
+  --content1: '<';
+  --content2: '/>';
 }
 
+* {
+  scroll-behavior: smooth;
+}
 main {
   display: grid;
-  grid-template-columns: repeat(3, 32%);
-  justify-items: right;
-  row-gap: 1rem;
+  grid-template-columns: repeat(3, 35%);
+  align-items: baseline;
+  justify-items: center;
+  column-gap: normal;
+}
+*,::before,::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.project-title {
+  background-color: #1d62d89f;
 }
 .wiki-img {
-  width: 95%;
+  display: grid;
+  grid-column: 1/1;
   object-fit: cover;
+  width: 128%;
+  height: 100%;
 }
 .book-img {
-  width: 95%;
+  display: grid;
+  grid-column: 2/2;
   object-fit: cover;
+  width: 75%;
+  height: 40%;
+  
 }
 .product-img {
-  width: 95%;
-  object-fit: cover;
+  display: grid;
+  grid-column: 3/3;
+  object-fit: 3/3;
+  width: 80%;
+  height: 30%;
 }
+.one {
+  display: grid;
+  grid-column: 2/2;
+  width: 46%;
+  height: 30%;
+  background-color: var(--color1);
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 76px;
+  padding-top: 7px;
+  text-align: center;
+  position:relative;
+  bottom: 38px;
+  right: 15%;
+}
+.one:hover {
+  background-color: var(--color2);
+}
+p {
+  color: var(--color3);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  padding: 20px;
+  cursor: pointer;
+}
+.two {
+  display: grid;
+  grid-column: 3/3;
+  width: 80%;
+  height: 20%;
+  background-color: var(--color1);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+.three {
+  display: grid;
+  grid-column: 2/2;
+  width: 75%;
+  height: 20%;
+  background-color: var(--color1);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+.two > p > a {
+  font-size: 22px;
+  text-decoration: none;
+  color: var(--color3);
+  position: absolute;
+  left: 0%;
+  right: 0%;
+}
+.three > p > a {
+  font-size: 21px;
+  text-decoration: none;
+  color: var(--color3);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.four > p > a {
+  font-size: 22px;
+  text-decoration: none;
+  color: var(--color3);
+  position: absolute;
+  left: 0%;
+  right: 0%;
+}
+
+.four {
+  display: grid;
+  grid-column: 1/1;
+  width: 128%;
+  height: 20%;
+  background-color: var(--color1);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.technical-documentation-page {
+  position: relative;
+  right: 10px;
+}
+.tribute-page {
+  position: relative;
+  right: 50px;
+}
+.two:hover > p > a::before {
+  content: var(--content1);
+  font-weight: var(--font1);
+  color: var(--color2);
+  position: absolute;
+  left: 5%;
+}
+.two:hover > p > a::after {
+  content: var(--content2);
+  font-weight: var(--font1);
+  color: var(--color2);
+  position: absolute;
+  right: 0%;
+}
+.three:hover > p >a::before {
+  content: var(--content1);
+  font-weight: var(--font1);
+  color: var(--color2);
+  position: absolute;
+  left: 0;
+}
+.three:hover > p >a::after {
+  content: var(--content2);
+  font-weight: var(--font1);
+  color: var(--color2);
+  position: absolute;
+  right: 28%
+}
+.four:hover > p > a::before {
+  content: var(--content1);
+  font-weight: var(--font1);
+  color: var(--color2);
+  position: absolute;
+  left: 12%;
+
+}
+.four:hover > p > a::after {
+  content: var(--content2);
+  font-weight: var(--font1);
+  color: var(--color2);
+  position: absolute;
+  right: 5%;
+}
+.product-landing-page {
+  position: relative;
+  right: 20px;
+}
+.public-address {
+  width: 100%;
+}
+.public-address > h1 {
+  color: var(--color3);
+  text-align: center;
+  position: relative;
+  top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+}
+.public-address > h3 {
+  color: var(--color3);
+  text-align: center;
+  font-style: italic;
+  position: relative;
+  top: 120px;
+  font-family: serif;
+}
+.social-icons {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  position: relative;
+  top: 190px;
+}
+
+.github:hover {
+  transform: var(--icons);
+  transition: var(--smooth);
+}
+
+.email:hover {
+  transform: var(--icons);
+  transition: var(--smooth);
+}
+
+.dividing-strip {
+  position: relative;
+  top: 404px;
+  width: 100%;
+  height: 5px;
+  background-color: crimson;
+}
+.copyright {
+  width: 100%;
+  text-align: right;
+  position: relative;
+  bottom: -474px;
+  right: 152px;
+}
+.communication {
+  width: 100%;
+  height: 35%;
+  background-color: var(--color1);
+}
+.divider {
+  position: relative;
+  bottom: 20%;
+  width: 60%;
+  height: 3px;
+  background-color: var(--color3);
+  margin-right: 100px;
+}
+
