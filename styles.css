@@ -79,7 +79,9 @@ body {
   overflow-x: hidden;
 }
 @media (max-width: 500px) {
-  
+  #navbar {
+    transform: scale(0.5);
+  }
 }
 :root {
   --icons: translateY(10px);
