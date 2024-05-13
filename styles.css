@@ -80,8 +80,7 @@ body {
 }
 @media (max-width: 768px) {
   body {
-    height: 120vh;
-    width: 120vw;
+    height: 200vh;
   }
 }
 :root {
