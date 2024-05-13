@@ -78,7 +78,7 @@ body {
   height: 400vh;
   overflow-x: hidden;
 }
-@media screen (max-width: 375) {
+@media only screen and (max-width: 375px) {
   body {
     transform: scale(1);
   }
