@@ -79,10 +79,10 @@ body {
   overflow-x: hidden;
 }
 @media (max-width: 768px) {
-  body {
-    width: 100vw;
+   .name {
+     width: calc(768px - 400vh);
   }
-}
+} 
 :root {
   --icons: translateY(10px);
   --smooth: transform 1s ease-in-out 0ms;
