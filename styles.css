@@ -80,7 +80,7 @@ body {
 }
 @media (max-width: 768px) {
    .name {
-     width: 100%;
+     width: 50%;
   }
 } 
 :root {
