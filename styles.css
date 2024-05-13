@@ -81,8 +81,7 @@ body {
 
 @media (max-width: 500px) {
   body {
-    width: 400px;
-  }
+    scale: 0.5;
 }
 
 :root {
