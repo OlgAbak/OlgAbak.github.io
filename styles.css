@@ -79,6 +79,9 @@ body {
   overflow-x: hidden;
 }
 @media screen (max-width: 375) {
+  body {
+    transform: scale(1);
+  }
   #navbar {
     displayL none;
   }
