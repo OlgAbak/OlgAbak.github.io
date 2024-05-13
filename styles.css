@@ -79,8 +79,8 @@ body {
   overflow-x: hidden;
 }
 @media (max-width: 500px) {
-  #navbar {
-    width: 10px;
+  body {
+    transform: scale(0.5, 1);
   }
 }
 :root {
