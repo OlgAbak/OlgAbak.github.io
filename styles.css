@@ -79,9 +79,16 @@ body {
   overflow-x: hidden;
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 375px) {
   body {
-    scale: 0.5;
+    transform: scale(1);
+  }
+}
+@media only screen and (max-width: 960px) {
+  
+}
+@media only screen and (max-width: 1600px) {
+  
 }
 
 :root {
