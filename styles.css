@@ -78,9 +78,9 @@ body {
   height: 400vh;
   overflow-x: hidden;
 }
-@media (max-width: 768px) {
+@media (max-width: 320px) {
    body {
-    height: calc(400vh - 768px);
+    height: calc(400vh - 320px);
     overflow: hidden;
  } 
 } 
