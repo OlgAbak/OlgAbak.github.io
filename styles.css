@@ -78,13 +78,20 @@ body {
   height: 400vh;
   overflow-x: hidden;
 }
-@media (max-width: 1000px) {
-  body {
-    height: 100vh;
-    width: 100vw;
+@media (min-width:300px) and (max-width: 500px) {
+  .wiki-img {
+    width: 32%;
+    height: 25%;
+}
+  .book-img {
+    width: 18%;
+    height: 10%;
+  }
+  .product-img {
+    width: 20%;
+    height: 7%;
   }
 }
-
 :root {
   --icons: translateY(10px);
   --smooth: transform 1s ease-in-out 0ms;
