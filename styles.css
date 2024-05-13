@@ -81,7 +81,7 @@ body {
 
 @media (max-width: 500px) {
   body {
-    transform: scale(0.5);
+    width: 300px;
   }
 }
 
