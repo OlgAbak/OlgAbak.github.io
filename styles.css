@@ -80,7 +80,7 @@ body {
 }
 @media (max-width: 500px) {
   body {
-    scale: 1.5;
+    scale: 1;
   }
 }
 :root {
