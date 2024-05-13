@@ -78,6 +78,7 @@ body {
   height: 400vh;
   overflow-x: hidden;
 }
+
 @media (max-width: 500px) {
   body {
     transform: scale(0.5);
