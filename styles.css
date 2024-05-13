@@ -79,9 +79,10 @@ body {
   overflow-x: hidden;
 }
 @media (max-width: 768px) {
-   .name {
-     width: 50%;
-  }
+   body {
+    height: 100vh;
+    overflow: hidden;
+ } 
 } 
 :root {
   --icons: translateY(10px);
