@@ -80,7 +80,7 @@ body {
 }
 @media (max-width: 500px) {
   #navbar {
-    transform: scale(0.7);
+    transform: scale(1.5);
   }
 }
 :root {
