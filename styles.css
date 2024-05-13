@@ -78,6 +78,11 @@ body {
   height: 400vh;
   overflow-x: hidden;
 }
+@media (max-width: 1000px) {
+  body {
+    height: 100vh;
+    overflow: hidden;
+  }
 
 :root {
   --icons: translateY(10px);
