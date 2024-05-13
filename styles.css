@@ -80,7 +80,7 @@ body {
 }
 @media (max-width: 768px) {
    body {
-    height: calc(768px - 400vh);
+    height: calc(400vh - 768px);
     overflow: hidden;
  } 
 } 
