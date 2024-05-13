@@ -78,7 +78,7 @@ body {
   height: 400vh;
   overflow-x: hidden;
 }
-@media (max-width: 320px) {
+@media (max-width: 150px) {
   body {
     height: 100vh;
   }
