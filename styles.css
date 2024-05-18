@@ -85,58 +85,7 @@ body {
   #navbar {
     display: none;
   }
-  #presentation {
-    display: none;
-  }
-  .divider {
-    display: none;
-  }
-  .projects {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-main {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  }
-  .wiki-img {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-  .book-img {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-  .product-img {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-  .one {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-  .two {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-  .three {
-    display: flex;
-    flex-direction: column:
-    flex-wrap: nowrap;
-  }
-  .four {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-)
+}
 
 :root {
   --icons: translateY(10px);
