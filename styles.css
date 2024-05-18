@@ -85,6 +85,9 @@ body {
   #navbar {
     display: none;
   }
+  #presentation {
+    display: none;
+  }
   .projects {
     display: flex;
     flex-direction: column;
