@@ -339,4 +339,7 @@ p {
   #navbar {
     display: none;
   }
+  #welcome-section {
+    top: 50px;
+  }
 }
