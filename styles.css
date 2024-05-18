@@ -342,4 +342,8 @@ p {
   #welcome-section {
     top: 50px;
   }
+  #presentation {
+    width: 30%;
+    padding: auto;
+  }
 }
