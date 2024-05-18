@@ -101,7 +101,42 @@ main {
   flex-direction: column;
   flex-wrap: wrap;
   }
-}
+  .wiki-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .book-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .product-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .one {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .two {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .three {
+    display: flex;
+    flex-direction: column:
+    flex-wrap: nowrap;
+  }
+  .four {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+)
 @media only screen and (max-width: 960px) {
   body {
     transform: scale(1);
