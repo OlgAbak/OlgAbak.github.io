@@ -362,7 +362,7 @@ p {
     padding-left: 5px;
     font-size: 20px;
     text-align: right;
-    justify-content: justify;
+    width: 75%;
   }
   .one {
     width: 90%;
