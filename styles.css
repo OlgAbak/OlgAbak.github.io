@@ -361,6 +361,7 @@ p {
     padding-top: 20px;
     padding-left: 5px;
     font-size: 20px;
+    text-align: right;
   }
   .one {
     width: 90%;
