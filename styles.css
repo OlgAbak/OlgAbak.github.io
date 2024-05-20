@@ -354,6 +354,7 @@ p {
   #welcome-section {
     top: 100px;
     font-size: 25px;
+    text-align: left;
   }
   #profession {
     top: 110px;
