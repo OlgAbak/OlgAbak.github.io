@@ -348,6 +348,9 @@ p {
   #navbar {
     position: static;
   }
+  .name {
+    height: 15%;
+  }
   #welcome-section {
     top: 100px;
   }
