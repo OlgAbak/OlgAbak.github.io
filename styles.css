@@ -359,10 +359,10 @@ p {
   }
   .projects {
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: right;
+    align-items: right;
     padding-top: 20px;
-    text-align: left;
+    text-align: right;
   }
   .one {
     width: 90%;
