@@ -358,10 +358,6 @@ p {
     top: 110px;
   }
   .projects {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: justify;
     padding-top: 20px;
     padding-left: 5px;
     font-size: 20px;
