@@ -355,6 +355,9 @@ p {
     top: 110px;
   }
   .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-left: 20px;
     padding-top: 50px;
     text-align: center;
