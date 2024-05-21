@@ -355,14 +355,14 @@ p {
     top: 100px;
   }
   #profession {
-    top: 120px;
+    top: 130px;
   }
   #presentation {
     width: 100%;
   }
   .projects {
-    padding-left: 5px;
-    padding-top: 20px;
+    padding-left: 10px;
+    padding-top: 30px;
     font-size: 30px;
     text-align: center;
   }
