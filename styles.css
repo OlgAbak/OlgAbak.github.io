@@ -358,7 +358,8 @@ p {
     top: 110px;
   }
   #presentation {
-    display: none;
+    width: 100%;
+    padding-right: 10px;
   }
   .projects {
     padding-top: 20px;
