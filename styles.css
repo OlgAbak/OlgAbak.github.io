@@ -366,6 +366,7 @@ p {
     font-size: 25px;
     text-align: center;
     justify-content: center;
+    align-items: center;
   }
   .one {
     width: 90%;
