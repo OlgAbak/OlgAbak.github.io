@@ -379,8 +379,8 @@ p {
     gap: 30px;
   }
   .tribute-page {
-    position: absolute;
-    bottom: 25px;
+    position: static;
+    margin-top: 20px;
   }
   .wiki-img {
     display: flex;
