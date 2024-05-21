@@ -359,10 +359,9 @@ p {
   }
   #presentation {
     width: 100%;
-    padding-right: 10px;
-    padding-left: 10px;
   }
   .projects {
+    padding-left: 5px;
     padding-top: 20px;
     font-size: 30px;
     text-align: center;
