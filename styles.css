@@ -378,6 +378,10 @@ p {
     margin: 0 auto;
     gap: 30px;
   }
+  .tribute-page {
+    position: relative;
+    bottom: 40%;
+  }
   .wiki-img {
     display: flex;
     flex-direction: column;
