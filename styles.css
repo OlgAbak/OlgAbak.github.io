@@ -368,6 +368,7 @@ p {
     text-align: center;
     justify-content: center;
   }
+
   .one {
     width: 90%;
     margin-left: 5%;
@@ -406,7 +407,7 @@ p {
     height: 25%;
   }
   .divider {
-    bottom: 10%;
+    bottom: 50%;
     margin-right: 0;
   }
 }
