@@ -380,7 +380,7 @@ p {
   }
   .tribute-page {
     position: absolute;
-    bottom: 100px;
+    bottom: 25px;
   }
   .wiki-img {
     display: flex;
