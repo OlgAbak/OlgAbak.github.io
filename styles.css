@@ -357,6 +357,9 @@ p {
   #profession {
     top: 110px;
   }
+  #presentation {
+    display: none;
+  }
   .projects {
     padding-top: 20px;
     padding-left: 5px;
