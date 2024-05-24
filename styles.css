@@ -346,24 +346,27 @@ p {
     right: 0;
   }
   #navbar {
-    position: static;
+    position: fixed;
+  }
+  nav {
+    height: 38%;
   }
   .name {
-    height: 25%;
+    height: 33%;
   }
   #welcome-section {
-    top: 70px;
+    top: 250px;
   }
   #profession {
-    top: 140px;
+    top: 300px;
   }
   #presentation {
     width: 100%;
   }
   .projects {
-    height: 70%;
+    height: 40%;
     padding-left: 90px;
-    padding-top: 30px;
+    padding-top: 50px;
     font-size: 25px;
     text-align: center;
     justify-content: center;
@@ -379,7 +382,7 @@ p {
   }
   .tribute-page {
     position: relative;
-    top: -950px;
+    top: -350px;
   }
   .wiki-img {
     display: flex;
@@ -389,6 +392,11 @@ p {
     height: 30%;
     justify-content: center;
     align-items: center;
+    margin-left: 60px;
+  }
+  .technical-documentation-page {
+    position: relative;
+    top: 220px;
   }
   .book-img {
     display: flex;
@@ -398,27 +406,55 @@ p {
     height: 15%;
     justify-content: center;
     align-items: center;
+    margin-left: 120px;
+  }
+  .three {
+    margin-left: 50px;
+    width: 230px;
+    height: 70px;
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+  }
+  .product-landing-page {
+    position: relative;
+    top: -150px;
+    left: 40px;
   }
   .product-img {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 25%;
-    height: 10%;
+    width: 55%;
+    height: 70%;
     justify-content: center;
     align-items: center;
+    margin-left: 70px;
+  }
+  .two {
+    margin-left: 50px;
+    width: 255px;
+    height: 70px;
+    position: relative;
+    bottom: 1px;
+    left: 20px;
   }
   .one {
-    width: 90%;
-    margin-left: 5%;
-    right: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 40%;
+    margin-left: 45%;
+    padding-bottom: 8px;
   }
-  .two,
-  .three,
   .four {
     width: 90%;
     margin-left: 5%;
     right: 0;
+    position: ralative;
+    top: -1px;
+    left: 47px;
+    height: 70px;
   }
   .two > p > a,
   .three > p > a,
@@ -436,16 +472,16 @@ p {
     top: 150px;
   }
   .dividing-strip {
-    top: 304px;
+    top: 340px;
   }
   .copyright {
     bottom: -374px;
     right: 52px;
   }
   .communication {
-    height: 25%;
+    height: 35%;
   }
   .divider {
-    bottom: 40%;
+    bottom: 28%;
   }
 }
