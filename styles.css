@@ -341,6 +341,7 @@ p {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: justify;
+    align-items: center;
   }
   nav > ul > li {
     padding-bottom: 10px;
