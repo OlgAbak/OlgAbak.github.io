@@ -344,8 +344,8 @@ p {
     align-items: center;
   }
   nav > ul > li {
-    padding-bottom: 8px;
-    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 8px;
     padding-left: 3px;
   }
   li > a {
