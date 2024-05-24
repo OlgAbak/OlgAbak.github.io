@@ -341,6 +341,7 @@ p {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: justify;
+    justify-content: center;
     align-items: center;
   }
   nav > ul > li {
