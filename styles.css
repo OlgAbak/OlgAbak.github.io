@@ -344,10 +344,8 @@ p {
     align-items: center;
   }
   nav > ul > li {
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     padding-top: 10px;
-    padding-left: 3px;
-    padding-right: 3px;
   }
   #navbar {
     position: fixed;
