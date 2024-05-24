@@ -342,7 +342,7 @@ p {
     align-items: center;
   }
   nav > ul > li {
-    padding: 10px;
+    padding-bottom: 10px;
     right: 0;
   }
   #navbar {
